@@ -18,5 +18,10 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
         //Comment
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        //More comment
+    }
 }
 
